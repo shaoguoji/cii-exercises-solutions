@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1286283954 source:e:\代码库\c\c语言接口与实现\ch2\stack\src\assert.c
+	"assert.h"
+
+1286283954 e:\代码库\c\c语言接口与实现\ch2\stack\inc\assert.h
+	"except.h"
+
+1286283954 e:\代码库\c\c语言接口与实现\ch2\stack\inc\except.h
+	<setjmp.h>
+	<windows.h>
+
+1286283954 source:e:\代码库\c\c语言接口与实现\ch2\stack\src\except.c
+	<stdlib.h>
+	<stdio.h>
+	"assert.h"
+	"except.h"
+
+1512559585 source:e:\代码库\c\c语言接口与实现\ch2\stack\src\main.c
+	<stdio.h>
+	"stack.h"
+
+1286283954 source:e:\代码库\c\c语言接口与实现\ch2\stack\src\mem.c
+	<stdlib.h>
+	<stddef.h>
+	"assert.h"
+	"except.h"
+	"mem.h"
+
+1286283954 e:\代码库\c\c语言接口与实现\ch2\stack\inc\mem.h
+	"except.h"
+
+1512559513 source:e:\代码库\c\c语言接口与实现\ch2\stack\src\stack.c
+	<stddef.h>
+	"assert.h"
+	"mem.h"
+	"stack.h"
+
+1286283954 e:\代码库\c\c语言接口与实现\ch2\stack\inc\stack.h
+
+1286283954 source:e:\代码库\c\c语言接口与实现\ch2\ext2.5\src\assert.c
+	"assert.h"
+
+1286283954 e:\代码库\c\c语言接口与实现\ch2\ext2.5\inc\assert.h
+	"except.h"
+
+1286283954 e:\代码库\c\c语言接口与实现\ch2\ext2.5\inc\except.h
+	<setjmp.h>
+	<windows.h>
+
+1286283954 source:e:\代码库\c\c语言接口与实现\ch2\ext2.5\src\except.c
+	<stdlib.h>
+	<stdio.h>
+	"assert.h"
+	"except.h"
+
+1286283954 source:e:\代码库\c\c语言接口与实现\ch2\ext2.5\src\mem.c
+	<stdlib.h>
+	<stddef.h>
+	"assert.h"
+	"except.h"
+	"mem.h"
+
+1286283954 e:\代码库\c\c语言接口与实现\ch2\ext2.5\inc\mem.h
+	"except.h"
+
+1512560132 source:e:\代码库\c\c语言接口与实现\ch2\ext2.5\src\main.c
+	<stdio.h>
+	"stack.h"
+
+1512560103 e:\代码库\c\c语言接口与实现\ch2\ext2.5\inc\stack.h
+
+1512560156 source:e:\代码库\c\c语言接口与实现\ch2\ext2.5\src\stack.c
+	<stddef.h>
+	"assert.h"
+	"mem.h"
+	"stack.h"
+
