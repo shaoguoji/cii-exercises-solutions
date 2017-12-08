@@ -37,3 +37,42 @@
 
 1286283954 e:\代码库\c\c语言接口与实现\ch2\stack\inc\stack.h
 
+1286283954 source:c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.3\src\assert.c
+	"assert.h"
+
+1286283954 c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.3\inc\assert.h
+	"except.h"
+
+1286283954 c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.3\inc\except.h
+	<setjmp.h>
+	<windows.h>
+
+1286283954 source:c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.3\src\except.c
+	<stdlib.h>
+	<stdio.h>
+	"assert.h"
+	"except.h"
+
+1286283954 source:c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.3\src\mem.c
+	<stdlib.h>
+	<stddef.h>
+	"assert.h"
+	"except.h"
+	"mem.h"
+
+1286283954 c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.3\inc\mem.h
+	"except.h"
+
+1512559710 source:c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.3\src\stack.c
+	<stddef.h>
+	"assert.h"
+	"mem.h"
+	"stack.h"
+
+1286283954 c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.3\inc\stack.h
+
+1512723324 source:c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.3\src\main.c
+	<stdio.h>
+	"stack.h"
+	"except.h"
+

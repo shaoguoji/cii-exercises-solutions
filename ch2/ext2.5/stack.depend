@@ -75,3 +75,42 @@
 	"mem.h"
 	"stack.h"
 
+1286283954 source:c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.5\src\assert.c
+	"assert.h"
+
+1286283954 c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.5\inc\assert.h
+	"except.h"
+
+1286283954 c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.5\inc\except.h
+	<setjmp.h>
+	<windows.h>
+
+1286283954 source:c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.5\src\except.c
+	<stdlib.h>
+	<stdio.h>
+	"assert.h"
+	"except.h"
+
+1286283954 source:c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.5\src\mem.c
+	<stdlib.h>
+	<stddef.h>
+	"assert.h"
+	"except.h"
+	"mem.h"
+
+1286283954 c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.5\inc\mem.h
+	"except.h"
+
+1512560156 source:c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.5\src\stack.c
+	<stddef.h>
+	"assert.h"
+	"mem.h"
+	"stack.h"
+
+1512560103 c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.5\inc\stack.h
+
+1512723255 source:c:\users\guoji\documents\github\cii-exercises-solutions\ch2\ext2.5\src\main.c
+	<stdio.h>
+	"stack.h"
+	"except.h"
+
