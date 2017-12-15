@@ -49,41 +49,45 @@ void add_words_from_file(FILE *fp, int count)
     for (i = 0; i < count; i++)
     {
         getword(fp, word, sizeof(word));
+        printf("%s ", word);
         // Atom_new(word, strlen(word));
         run_time += call_time(Atom_new, word, strlen(word));
     }
+    printf("\n");
 }
 
 void Atom_hash_analysis(void)
 {
-    int result[BUCKETS_SIZE], anlays[MAX_LINKLIST_LENGTH];
+    int result[BUCKETS_SIZE], analys[MAX_LINKLIST_LENGTH];
     int item_count = 0;
+    double averge_length;
     int i, j;
 
     Atom_hash_count(result, BUCKETS_SIZE);
 
     for (i = 0; i < BUCKETS_SIZE; i++)
     {
-        ++anlays[result[i]];
+        ++analys[result[i]];
         item_count += result[i];
     }
 
     for (i = 0; i < MAX_LINKLIST_LENGTH; i++)
     {
-        if (anlays[i] != 0)
+        if (analys[i] != 0)
         {
-            // printf ("count of length %d: %d\n", i, anlays[i]);
+            // printf ("count of length %d: %d\n", i, analys[i]);
             printf ("count of length %2d: ", i);
-            for (j = 0; j < anlays[i]/10; j++)
+            for (j = 0; j < analys[i]/10; j++)
             {
                 printf("#");
             }
-            printf("%d\n", anlays[i]);
+            printf("%d\n", analys[i]);
         }
     }
 
-    printf("\nitem count: %d\n", item_count);
-    printf("averge length: %0.2lf\n", (double)item_count/BUCKETS_SIZE);
+    printf("\nbucket size: %d\n", BUCKETS_SIZE);
+    printf("item count: %d\n", item_count);
+    printf("averge length: %0.2lf/%0.2lf\n", (double)item_count/(BUCKETS_SIZE-analys[0]), (double)item_count/BUCKETS_SIZE);
 }
 
 double call_time(func_type fun, const char *str, int len)

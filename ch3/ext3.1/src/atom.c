@@ -83,7 +83,7 @@ const char *Atom_new(const char *str, int len) {
 	assert(str);
 	assert(len >= 0);
 	for (h = 0, i = 0; i < len; i++)
-		h = (h<<1) + scatter[(unsigned char)str[i]];
+        h = (h<<1) + scatter[(unsigned char)str[i]];
 	// h &= NELEMS(buckets)-1;  // author's github
 	h %= NELEMS(buckets);  // author's book
 	for (p = buckets[h]; p; p = p->link)

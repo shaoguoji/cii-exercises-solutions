@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1513255546 source:e:\代码库\c\c语言接口与实现\ch3\ext3.1\src\atom.c
+1513310007 source:e:\代码库\c\c语言接口与实现\ch3\ext3.1\src\atom.c
 	"atom.h"
 	<string.h>
 	"assert.h"
@@ -24,7 +24,7 @@
 	"assert.h"
 	"except.h"
 
-1513255539 source:e:\代码库\c\c语言接口与实现\ch3\ext3.1\src\main.c
+1513309984 source:e:\代码库\c\c语言接口与实现\ch3\ext3.1\src\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
