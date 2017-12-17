@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1513310007 source:e:\代码库\c\c语言接口与实现\ch3\ext3.1\src\atom.c
+	"atom.h"
+	<string.h>
+	"assert.h"
+	<limits.h>
+	"mem.h"
+
+1513528015 e:\代码库\c\c语言接口与实现\ch3\ext3.1\inc\atom.h
+
+1286283954 e:\代码库\c\c语言接口与实现\ch3\ext3.1\inc\assert.h
+	"except.h"
+
+1286283954 e:\代码库\c\c语言接口与实现\ch3\ext3.1\inc\except.h
+	<setjmp.h>
+	<windows.h>
+
+1286283954 e:\代码库\c\c语言接口与实现\ch3\ext3.1\inc\mem.h
+	"except.h"
+
+1286283954 source:e:\代码库\c\c语言接口与实现\ch3\ext3.1\src\except.c
+	<stdlib.h>
+	<stdio.h>
+	"assert.h"
+	"except.h"
+
+1513309984 source:e:\代码库\c\c语言接口与实现\ch3\ext3.1\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"atom.h"
+
+1286283954 source:e:\代码库\c\c语言接口与实现\ch3\ext3.1\src\mem.c
+	<stdlib.h>
+	<stddef.h>
+	"assert.h"
+	"except.h"
+	"mem.h"
+
+1513239074 source:e:\代码库\c\c语言接口与实现\ch3\ext3.1\src\assert.c
+	"assert.h"
+
+1513239074 source:e:\代码库\c\c语言接口与实现\ch3\ext3.2\src\assert.c
+	"assert.h"
+
+1286283954 source:e:\代码库\c\c语言接口与实现\ch3\ext3.2\src\except.c
+	<stdlib.h>
+	<stdio.h>
+	"assert.h"
+	"except.h"
+
+1513533211 source:e:\代码库\c\c语言接口与实现\ch3\ext3.2\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"atom.h"
+
+1286283954 source:e:\代码库\c\c语言接口与实现\ch3\ext3.2\src\mem.c
+	<stdlib.h>
+	<stddef.h>
+	"assert.h"
+	"except.h"
+	"mem.h"
+
